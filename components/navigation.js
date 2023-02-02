@@ -5,8 +5,8 @@ const Nav =()=>{
         <>
         <nav className='navbar sticky-top navbar-expand-lg bg-dark'>
             <div className='navbar-brand'>
-                <Link href="/" className='btn btn-primary'>
-                    NextJS Engine
+                <Link href="https://nextjs.org/docs/getting-started" target='_blank' className='btn btn-primary'>
+                    Using NextJS Engine
                 </Link>
             </div>
             <ul className='navbar-nav me-auto mb-2 mb-lg-0'>
