@@ -13,6 +13,7 @@ const Index =(props)=>{
     )
 }
 
+
 Index.getInitialProps=async (ctx)=>{
     const res=await fetch('https://reqres.in/api/users')
     const resJSON= await res.json()
